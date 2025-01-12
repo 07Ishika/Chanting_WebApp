@@ -1,0 +1,98 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #4a3b29;
+    background: #f5f1e8a4;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90vh;
+    padding: 20px;
+    background: linear-gradient(rgba(255, 255, 255, 0.856), rgba(202, 202, 178, 0.557)), url(../Asserts/bgimg\ mantra.png);
+    background-size: 1000px 550px; /* Set the image size */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center;
+}
+
+.content {
+    max-width: 40%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Prata',cursive;
+    margin-bottom: 10px;
+}
+
+#section-title {
+    font-size: 1.5rem;
+    color: #b68a3ada;
+    margin-top: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+}
+
+.image-section {
+    position: relative;
+    text-align: center;
+    width: 50%;
+}
+
+#dynamic-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #d4a857;
+}
+
+.arrow-btn {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    background-color: #4a3b29;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.arrow-btn:hover {
+    background-color: #d4a857;
+    color: #4a3b29;
+}
+.border{
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 533px;
+    width:1000px;
+    border:6px solid #d4a857;
+    padding-bottom: 30px;
+
+}
+.done-btn {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 12px 50px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #4a2f1c;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+a{
+    text-decoration: none;
+    color: beige;
+  }

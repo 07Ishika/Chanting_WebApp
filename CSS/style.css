@@ -1,0 +1,124 @@
+/* Vedic-Themed Homepage Styles */
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f5efe4;
+  color: #4a2f1c;
+  line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+  background-color: rgba(255, 255, 255, 0.658);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0em 1em;
+  max-width: 1000px;
+  margin: auto;
+  height: 70px;
+}
+.logo {
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.8rem;
+  color: #6a4421;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.6em;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #4a2f1c;
+  transition: color 0.3s;
+}
+.nav-links li a:hover {
+  color: #6a4421;
+}
+.utilities {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+.lang-switch, .cart {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: #4a2f1c;
+}
+.download-btn {
+  background-color: #6a4421;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.download-btn:hover {
+  background-color: #8b5c30;
+}
+
+/* Hero Section Styles */
+.hero {
+  background-image:url(../Asserts/hero\ img.png);
+  background-size: 1100px 600px;
+  height: 95vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-overlay {
+  background: rgba(245, 239, 228, 0.635);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hero-content {
+  position: relative;
+  padding: 1.5em;
+  padding-bottom: 1rem;
+}
+.hero-content h2 {
+  text-align: left;
+  margin-top: 100px;
+  margin-right:300px ;
+  font-size: 3.2rem;
+  color: #4a2f1c;
+  padding-bottom: 0px;
+  margin-bottom: 10px;
+}
+.hero-content p {
+  margin-top: 0px;
+  padding-top: 0;
+  font-size: 1.5rem;
+  margin-right:700px ;
+}
+.hero-content .download-btn {
+  margin-top: 1rem;
+  justify-content: right;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 0.5em 0;
+  background: #4a2f1c;
+  color: #f5efe4;
+}
+a{
+  text-decoration: none;
+  color: beige;
+}
